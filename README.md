@@ -1,6 +1,6 @@
 # Skills
 
-My personal agent skills for Claude Code. Forked from [mattpocock/skills](https://github.com/mattpocock/skills).
+My personal agent skills for Claude Code. See [Credits](#credits) for prior art.
 
 ## Setup
 
@@ -19,6 +19,7 @@ Then run `/setup-skills` in any repo before using the engineering skills (`to-is
 Daily code work.
 
 - **[diagnose](./skills/engineering/diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.
+- **[explain-diff](./skills/engineering/explain-diff/SKILL.md)** — Produce a rich explanation of a code change — background, intuition, code walkthrough, and an interactive quiz — as a self-contained HTML page or a Notion page.
 - **[frontend-design](./skills/engineering/frontend-design/SKILL.md)** — Create distinctive, production-grade frontend interfaces with bold aesthetic direction. Avoids generic AI aesthetics.
 - **[grill-with-docs](./skills/engineering/grill-with-docs/SKILL.md)** — Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates `CONTEXT.md` and ADRs inline.
 - **[triage](./skills/engineering/triage/SKILL.md)** — Triage issues through a state machine of triage roles.
@@ -45,3 +46,8 @@ Rarely used.
 
 - **[git-guardrails-claude-code](./skills/misc/git-guardrails-claude-code/SKILL.md)** — Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, etc.) before they execute.
 - **[setup-pre-commit](./skills/misc/setup-pre-commit/SKILL.md)** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
+
+## Credits
+
+- Forked from [mattpocock/skills](https://github.com/mattpocock/skills) by [Matt Pocock](https://github.com/mattpocock).
+- `explain-diff` is adapted from [a gist](https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524) by [Geoffrey Litt](https://github.com/geoffreylitt), with quiz-quality fixes drawn from that gist's comment thread.

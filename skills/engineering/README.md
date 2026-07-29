@@ -3,6 +3,7 @@
 Daily code work.
 
 - **[diagnose](./diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.
+- **[explain-diff](./explain-diff/SKILL.md)** — Produce a rich explanation of a code change — background, intuition, code walkthrough, and an interactive quiz — as a self-contained HTML page or a Notion page.
 - **[frontend-design](./frontend-design/SKILL.md)** — Create distinctive, production-grade frontend interfaces with bold aesthetic direction. Avoids generic AI aesthetics.
 - **[grill-with-docs](./grill-with-docs/SKILL.md)** — Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates `CONTEXT.md` and ADRs inline.
 - **[triage](./triage/SKILL.md)** — Triage issues through a state machine of triage roles.
